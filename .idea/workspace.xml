@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="880d4be6-b438-4d1b-929d-c1695d8d800b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/drivers/DriverSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/drivers/strategies/Chrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/drivers/strategies/DriverStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/drivers/strategies/DriverStrategyImplementer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/drivers/strategies/Firefox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/pages/Admin/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/pages/Admin/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/pages/Admin/RecruitmentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/utils/ScenarioTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/utils/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/01LoginAndLogout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myCompany/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myCompany/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/myCompany/TestRunner.java" afterDir="false" />
-    </list>
+    <list default="true" id="880d4be6-b438-4d1b-929d-c1695d8d800b" name="Changes" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,32 +29,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: 01Login.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Feature: 01LoginAndLogout.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login fails when internet is offline.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login fails with an email that is not activated.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login fails with email missing domain extensions.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login fails with email missing the \&quot;@\&quot; symbol.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login fails with empty email.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login fails with empty password.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login fails with invalid password.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login fails with unregistered email.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Login fails without entering email and password.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Successful login with valid email and password.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Verify disabling password masking.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Verify password masking while entering the password.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Verify successful logout.executor&quot;: &quot;Run&quot;,
-    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/HadirMagang/src/main/resources/features&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: 01Login.executor": "Run",
+    "Cucumber Java.Feature: 01LoginAndLogout.executor": "Run",
+    "Cucumber Java.Scenario: Login fails when internet is offline.executor": "Run",
+    "Cucumber Java.Scenario: Login fails with an email that is not activated.executor": "Run",
+    "Cucumber Java.Scenario: Login fails with email missing domain extensions.executor": "Run",
+    "Cucumber Java.Scenario: Login fails with email missing the \"@\" symbol.executor": "Run",
+    "Cucumber Java.Scenario: Login fails with empty email.executor": "Run",
+    "Cucumber Java.Scenario: Login fails with empty password.executor": "Run",
+    "Cucumber Java.Scenario: Login fails with invalid password.executor": "Run",
+    "Cucumber Java.Scenario: Login fails with unregistered email.executor": "Run",
+    "Cucumber Java.Scenario: Login fails without entering email and password.executor": "Run",
+    "Cucumber Java.Scenario: Successful login with valid email and password.executor": "Run",
+    "Cucumber Java.Scenario: Verify disabling password masking.executor": "Run",
+    "Cucumber Java.Scenario: Verify password masking while entering the password.executor": "Run",
+    "Cucumber Java.Scenario: Verify successful logout.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.TestRunner.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/HadirMagang/src/main/resources/features"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\IdeaProjects\HadirMagang\src\main\resources\features" />
@@ -209,6 +186,19 @@
       <option name="presentableId" value="Default" />
       <updated>1734702803368</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1735022436523</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735022436523</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
