@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="880d4be6-b438-4d1b-929d-c1695d8d800b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/drivers/DriverSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/drivers/strategies/Chrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/drivers/strategies/DriverStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/drivers/strategies/DriverStrategyImplementer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/drivers/strategies/Firefox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/pages/Admin/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/pages/Admin/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/pages/Admin/RecruitmentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/utils/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/utils/ScenarioTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/myCompany/utils/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/01LoginAndLogout.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myCompany/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myCompany/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/myCompany/TestRunner.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2qU2OV5R2qKANJcxcnKxhpx3mia" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: 01Login.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: 01LoginAndLogout.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login fails when internet is offline.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login fails with an email that is not activated.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login fails with email missing domain extensions.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login fails with email missing the \&quot;@\&quot; symbol.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login fails with empty email.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login fails with empty password.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login fails with invalid password.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login fails with unregistered email.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Login fails without entering email and password.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Successful login with valid email and password.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify disabling password masking.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify password masking while entering the password.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify successful logout.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/HadirMagang/src/main/resources/features&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\HadirMagang\src\main\resources\features" />
+      <recent name="C:\Users\User\IdeaProjects\HadirMagang\src\test\java\com\myCompany" />
+      <recent name="C:\Users\User\IdeaProjects\HadirMagang\src\main\java" />
+      <recent name="C:\Users\User\IdeaProjects\HadirMagang\src\main\java\com\myCompany" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.myCompany.pages.Admin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Login fails when internet is offline">
+    <configuration name="Scenario: Login fails when internet is offline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/01LoginAndLogout.feature" />
+      <option name="GLUE" value="com.myCompany" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="HadirMagang" />
+      <option name="NAME_FILTER" value="^Login fails when internet is offline$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login fails when internet is offline$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login fails when internet is offline" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Login fails with invalid password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/01LoginAndLogout.feature" />
+      <option name="GLUE" value="com.myCompany" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="HadirMagang" />
+      <option name="NAME_FILTER" value="^Login fails with invalid password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Login fails with invalid password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Login fails with invalid password" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify disabling password masking" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/01LoginAndLogout.feature" />
+      <option name="GLUE" value="com.myCompany" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="HadirMagang" />
+      <option name="NAME_FILTER" value="^Verify disabling password masking$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify disabling password masking$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify disabling password masking" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify password masking while entering the password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/01LoginAndLogout.feature" />
+      <option name="GLUE" value="com.myCompany" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="HadirMagang" />
+      <option name="NAME_FILTER" value="^Verify password masking while entering the password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify password masking while entering the password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify password masking while entering the password" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify successful logout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/01LoginAndLogout.feature" />
+      <option name="GLUE" value="com.myCompany" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="HadirMagang" />
+      <option name="NAME_FILTER" value="^Verify successful logout$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify successful logout$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify successful logout" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: Login fails when internet is offline" />
+        <item itemvalue="Cucumber Java.Scenario: Verify successful logout" />
+        <item itemvalue="Cucumber Java.Scenario: Verify disabling password masking" />
+        <item itemvalue="Cucumber Java.Scenario: Verify password masking while entering the password" />
+        <item itemvalue="Cucumber Java.Scenario: Login fails with invalid password" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="880d4be6-b438-4d1b-929d-c1695d8d800b" name="Changes" comment="" />
+      <created>1734702803368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1734702803368</updated>
+    </task>
+    <servers />
+  </component>
+</project>
