@@ -1,7 +1,8 @@
 # HadirMagangApps
 
 ## Automation Web Testing Project
-This project demonstrates web automation testing using Java, Selenium, TestNG, Cucumber, and Extent Report. Follow the instructions below to set up and run your tests.
+This project demonstrates web automation testing for HadirMagangApps using Java, Selenium, TestNG, Cucumber, and Extent Report. 
+Follow the instructions below to set up and run your tests.
 
 ## Prerequisites
 Ensure that you have the following installed:
