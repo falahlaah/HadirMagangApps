@@ -85,6 +85,7 @@ public class LoginTest {
     @Then("The admin sees an error message Please include the At symbol in the email address")
     public void the_admin_sees_an_error_message_Please_include_the_At_symbol_in_the_email_address(){
         Utils.delay(3);
+        Assert.assertEquals(loginPage.getTxtInvalidWarning(),"Please include an '@' in the email address. 'adminhadir.com' is missing an '@'.");
         extentTest.log(LogStatus.PASS,"The admin sees an error message Please include an the At symbol in the email address");
 
     }
@@ -98,6 +99,7 @@ public class LoginTest {
     @Then("The admin sees an error message A part following the At symbol should not contain the At symbol")
     public void the_admin_sees_an_error_message_A_part_following_the_At_symbol_should_not_contain_the_At_symbol(){
         Utils.delay(3);
+        Assert.assertEquals(loginPage.getTxtInvalidWarning(),"A part following '@' should not contain the symbol '@'.");
         extentTest.log(LogStatus.PASS,"The admin sees an error message A part following the At symbol should not contain the At symbol");
 
     }
@@ -223,6 +225,15 @@ public class LoginTest {
         Utils.delay(4);
         Assert.assertEquals(loginPage.getCurrentUrl(),"https://magang.dikahadir.com/authentication/login");
         extentTest.log(LogStatus.PASS,"The admin is successful logout redirected to the admin login page");
+    }
+
+    //BackGround LaporanSemua ImportStatusAktif
+    @Given("The admin has logged in")
+    public void the_admin_has_logged_in(){
+        loginPage.gotoApps(Constants.URL);
+        loginPage.loginAdmin("admin@hadir.com","admin@hadir");
+        loginPage.clickBtnMasuk();
+        Utils.delay(2);
     }
 
 

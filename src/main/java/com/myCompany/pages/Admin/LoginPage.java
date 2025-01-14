@@ -93,7 +93,7 @@ public class LoginPage {
                 ,Optional.empty(), Optional.empty(), Optional.empty()));
     }
     public String getTxtInvalidWarning(){
-        return txtInvalid.getText();
+        return email.getAttribute("validationMessage");
     }
 
 
