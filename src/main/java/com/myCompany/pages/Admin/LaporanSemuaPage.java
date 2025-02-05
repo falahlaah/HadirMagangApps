@@ -166,27 +166,38 @@ public class LaporanSemuaPage {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMM yyyy", Locale.forLanguageTag("id-ID"));
         LocalDate awalDate = LocalDate.parse(startDate, formatter);
         LocalDate akhirDate = LocalDate.parse(endDate, formatter);
-        for (WebElement dataDates : list_Dates) {
-            String ActualdateDisplay = dataDates.getText();
-            if (ActualdateDisplay.contains("Agt")){
-                ActualdateDisplay = ActualdateDisplay.replace("Agt","Agu");
+
+        if (list_Dates.isEmpty()){
+            return false;
+        }else {
+            for (WebElement dataDates : list_Dates) {
+                String ActualdateDisplay = dataDates.getText();
+                if (ActualdateDisplay.contains("Agt")){
+                    ActualdateDisplay = ActualdateDisplay.replace("Agt","Agu");
+                }
+                LocalDate dateDisplay = LocalDate.parse(ActualdateDisplay, formatter);
+                if (dateDisplay.isBefore(awalDate) || dateDisplay.isAfter(akhirDate)) {
+                    return false;
+                }
             }
-            LocalDate dateDisplay = LocalDate.parse(ActualdateDisplay, formatter);
-            if (dateDisplay.isBefore(awalDate) || dateDisplay.isAfter(akhirDate)) {
-                return false;
-            }
+            return true;
         }
-        return true;
+
     }
 
     public boolean getValidateNames() {
         Utils.delay(1);
-        for (WebElement name : list_Nama) {
-            if (!name.getText().contains(searchName.getText())){
-                return false;
+        if (list_Nama.isEmpty()){
+            return false;
+        }else {
+            for (WebElement name : list_Nama) {
+                if (!name.getText().contains(searchName.getText())){
+                    return false;
+                }
             }
+            return true;
         }
-        return true;
+
     }
 
     public void setSearchName(String name){
@@ -218,12 +229,17 @@ public class LaporanSemuaPage {
         String target = unitDepartement.getText();
         btn_batal.click();
         Utils.delay(1);
-        for (WebElement unit : list_Unit) {
-            if (!unit.getText().contains(target)){
-                return false;
+        if (list_Unit.isEmpty()){
+            return false;
+        }else {
+            for (WebElement unit : list_Unit) {
+                if (!unit.getText().contains(target)){
+                    return false;
+                }
             }
+            return true;
         }
-        return true;
+
     }
 
     public void clickNextPageIcon(){
