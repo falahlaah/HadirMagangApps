@@ -186,7 +186,7 @@ public class LaporanSemuaPage {
     }
 
     public boolean getValidateNames() {
-        Utils.delay(1);
+        Utils.delay(2);
         if (list_Nama.isEmpty()){
             return false;
         }else {
